@@ -41,5 +41,6 @@ class TestSimple(unittest.TestCase):
     def test_bad_nums(self):
         # result = simple.check_simple(-5)
         # self.assertFalse(result)
+        #
         with self.assertRaises(TypeError):
             simple.check_simple(-5)
